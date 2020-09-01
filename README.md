@@ -17,7 +17,9 @@ If you find this code useful in your research, please consider citing our work:
 }
 ```
 ## Prerequisites
-Our code was tested on [second.pytorch](https://github.com/traveller59/second.pytorch) and [OpenPCDet](https://github.com/open-mmlab/OpenPCDet).
+Our code was tested on [second.pytorch](https://github.com/traveller59/second.pytorch) and [OpenPCDet](https://github.com/open-mmlab/OpenPCDet).  
+This repository contains only part-aware data augmentation code.  
+Refer to the link above for code such as data loader or detector.
 
 ## Usage
 ```
