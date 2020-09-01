@@ -3,7 +3,7 @@
 This repository contains a reference implementation of our [Part-Aware Data Augmentation for 3D Object Detection in Point Cloud](https://arxiv.org/abs/2007.13373).
 
 <p align="center">
-  <img src="docs/methods.jpg" width="90%" height="400">
+  <img src="docs/methods.jpg" width="100%" height="400">
 </p>
 
 
