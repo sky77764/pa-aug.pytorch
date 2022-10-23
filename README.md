@@ -1,6 +1,6 @@
 # Part-Aware Data Augmentation for 3D Object Detection in Point Cloud
 
-This repository contains a reference implementation of our [Part-Aware Data Augmentation for 3D Object Detection in Point Cloud](https://arxiv.org/abs/2007.13373).
+This repository contains a reference implementation of our [Part-Aware Data Augmentation for 3D Object Detection in Point Cloud](https://ieeexplore.ieee.org/document/9635887) (IROS 2021).
 
 <p align="center">
   <img src="docs/methods.jpg" width="100%" height="400">
@@ -9,11 +9,13 @@ This repository contains a reference implementation of our [Part-Aware Data Augm
 
 If you find this code useful in your research, please consider citing our work:
 ```
-@article{choi2020part,
-  title={Part-Aware Data Augmentation for 3D Object Detection in Point Cloud},
+@inproceedings{choi2021part,
+  title={Part-aware data augmentation for 3d object detection in point cloud},
   author={Choi, Jaeseok and Song, Yeji and Kwak, Nojun},
-  journal={arXiv preprint arXiv:2007.13373},
-  year={2020}
+  booktitle={2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={3391--3397},
+  year={2021},
+  organization={IEEE}
 }
 ```
 ## Prerequisites
@@ -43,3 +45,6 @@ pa_aug = PartAwareAugmentation(points, gt_boxes, gt_names, class_names=class_nam
 points, gt_boxes_mask = pa_aug.augment(pa_aug_param=pa_aug_param)
 gt_boxes = gt_boxes[gt_boxes_mask]
 ```
+
+## Example
+Follow [this repo](https://github.com/sky77764/PA-AUG-MD3D) if you want to check the implementation on OpenPCDet.
